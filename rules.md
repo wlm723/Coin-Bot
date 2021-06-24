@@ -7,4 +7,4 @@
 - Don't mess up while commiting ANYTHING!
 
 **Have fun!**
-###### Please do not be those people who do 
+###### Please do not be those people who does `git commit -m "changes"` and stuff like that >:(
