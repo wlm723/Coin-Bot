@@ -30,3 +30,4 @@ Thanks!
 - [Support Server](https://discord.gg/pbRcTvvCed)
 - [Discord Server](https://discord.gg/cBRpmW2Csh) (Doesn't usually give support for coinbot bugs, inner workings, etc.)
 - [YouTube Channel](https://www.youtube.com/channel/UCIwQRdmuOVVLnPCo5ngSg_w)
+- [Discord Developer Portal](https://discord.com/developers)
