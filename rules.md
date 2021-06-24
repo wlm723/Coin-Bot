@@ -6,3 +6,5 @@
 - Don't give outdated code!
 - Don't mess up while commiting ANYTHING!
 
+**Have fun!**
+###### Please do not be those people who do 
