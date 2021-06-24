@@ -7,7 +7,7 @@ Unauthorised access is not allowed. Please read everything below this.
 After this, read `rules.md` for more info on what to do and not to do here.
 
 ### Running the bot
-To run the bot, go to the [repl.it project](https://replit.com/@CodeDoneRight/Science-done-right-bot#main.py) and run the bot.
+To run the bot, go to the repl.it project and run the bot.
 You can run the bot to:
 - Add new features
 - Remove old features
