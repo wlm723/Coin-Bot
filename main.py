@@ -6,8 +6,8 @@ import json
 import os
 import asyncio
 from keep_alive import keep_alive
-import commands_general
-import commands_coinbot
+from commands_general import *
+from commands_coinbot import *
 
 bot = commands.Bot(command_prefix=('coin ', 'Coin ', 'coin.', 'Coin.'), case_insensitive=True)
 
@@ -31,7 +31,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def invite(ctx):
-  await commands_general.invite_message(ctx)
+  await invite.invite(ctx)
 
 
 @bot.command()
