@@ -366,6 +366,4 @@ async def donate(ctx, member: discord.Member, amount=None):
 
 
 # SETUP
-keep_alive()
-my_secret = os.environ['TOKEN']
-bot.run(my_secret)
+bot.run(TOKEN)
