@@ -357,7 +357,13 @@ async def transfer(ctx, member: discord.Member, amount=None):
     await ctx.send(
         f'**{ctx.author.name}**, you tranferred {amount} <:SDRCoin:850353434061307924> to {member}\'s bank account.'
     )
-
+    
+@oot.command()
+async def jail(ctx,role:discord.Role,member:discord.Member):
+    if role in ctx.author.roles:
+        await ctx.author.remove_roles(everyone)
+        await ctx.author.add_role(Jail)
+    await ctx.send(f'**{member.mention}** has been added to the #jail channel)
 
 @bot.command()
 async def donate(ctx, member: discord.Member, amount=None):
